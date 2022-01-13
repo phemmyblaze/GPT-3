@@ -589,25 +589,26 @@ body {
 /* MEDIA QUERIES */
 @media (max-width: 368px) {
   body {
-    width: 300px;
+    width: auto;
+    overflow-x: hidden;
   }
   .open-ai h1 {
-    width: 300px;
+    width: auto;
     height: 200px;
-    font-size: 50px;
+    font-size: 25px;
     letter-spacing: 0;
     line-height: 50px;
   }
 
   .open-ai p {
-    width: 250px;
+    width: auto;
     height: auto;
     padding-top: 5px;
     font-size: 0.8rem;
   }
 
   .search {
-    width: 230px;
+    width: auto;
   }
 
   .button-get-started {
@@ -635,7 +636,101 @@ body {
   }
 
   .question1 p {
-    width: 250px;
+    width: auto;
     margin-top: 30px;
+  }
+  .pos h1 {
+    margin-left: 0;
+    width: auto;
+    height: auto;
+    margin-right: 0;
+    font-size: 20px;
+  }
+  .chatbots-knowledge-education {
+    margin-left: 0;
+  }
+  .future h3 {
+    width: auto;
+  }
+  .improve {
+    flex-direction: column;
+  }
+  .ref-list p {
+    width: auto;
+    font-size: 15px;
+  }
+  .tended-active {
+    flex-direction: column;
+  }
+  .message-nothing {
+    flex-direction: column;
+  }
+  .my-app {
+    flex-direction: column;
+  }
+  .my-app-img {
+    display: none;
+  }
+  .imagination-text {
+    display: flex;
+    flex-direction: column;
+  }
+  .imagination-text h5 {
+    font-size: 20px;
+  }
+  .imagination-text .travel {
+    width: 100%;
+    margin-bottom: 50px;
+    line-height: 20px;
+  }
+  .register-today {
+    flex-direction: column;
+  }
+  .register-today h5 {
+    width: auto;
+    padding: 5px;
+  }
+  .register-today-btn {
+    margin-left: 0;
+  }
+  .blog {
+    margin-bottom: 50px;
+  }
+  .blog h2 {
+    width: auto;
+    height: auto;
+    font-size: 20px;
+    margin-bottom: 30px;
+    line-height: 30px;
+  }
+  .happening {
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  .happening .a {
+    margin-right: 0;
+    margin-bottom: 40px;
+  }
+  .happening .big-font {
+    width: auto;
+  }
+  .happening .read-article {
+    padding-top: 30px;
+  }
+  .happening p {
+    height: auto;
+  }
+  .happening .b {
+    margin-right: 0;
+  }
+
+  .before h4 {
+    font-size: 30px;
+    line-height: 30px;
+    padding-top: 0;
+  }
+
+  .before .request-btn {
+    margin-left: 0;
   }
 }
